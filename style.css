@@ -5,3 +5,11 @@
 body {
     background-color: #2F329F;
 }
+
+.topnav-centered a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
