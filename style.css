@@ -1,15 +1,177 @@
-.center {
-    text-align: center
-}
-
-body {
-    background-color: #2F329F;
-}
-
-.topnav-centered a {
-    float: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+@media screen and (max-width: 600px) {
+    .topnav a, .topnav-right {
+      float: none;
+      display: block;
+    }
+    
+    .topnav-centered a {
+      position: relative;
+      top: 0;
+      left: 0;
+      transform: none;
+    }
   }
+  
+      .banner {
+          width: 100%;
+          display: block;
+          }
+      .banner > .banner-image {
+          width: 100%;
+          display: block;
+          }
+  
+    .main {
+      padding: 5px;
+      margin-top: 2px;
+      /*height: 1500px;  Used in this example to enable scrolling */
+    }
+  
+    .maintxt {
+      margin: auto;
+      width: 8%;
+      border: 3px solid green;
+      padding: 0px;
+      
+    }
+  
+    .maintxt a:link, a:visited {
+      background-color: #f44336;
+      color: white;
+      padding: 14px 25px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+    }
+  
+    .maintxt a:hover, a:active {
+      background-color: red;
+    }
+    .maintop1 {
+      position: relative;
+      margin-top: 5px;
+      width: 100%;
+      display: block;
+      text-align: center;
+      
+    }
+    
+    .maintop1 a {
+        text-decoration: none;
+    }
+    
+    /*img:hover{
+      opacity: 0.5;
+    }   I am not using this because this makes all my images transparent when mouse hovers*/   
+  
+  
+    .maintop1txtcenter {
+      position: relative;
+      top: 10%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: lightblue;
+      border: 3px solid  brown;
+      border-radius: 25pt;
+      opacity: 0.5;
+    } 
+    
+  .maintop1txtcenter2 {
+      position: absolute;
+      top: 70%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border: 3px solid white;
+      border-radius: 7pt;
+      
+  }
+  
+  
+  .maintop2 {
+      position: relative;
+      margin-top: 5px;
+      width: 100%;
+      display: block;
+      text-align: center;
+      
+      
+    }
+    
+    .maintop2 a {
+        text-decoration: none;
+    }
+    
+  
+  
+    .maintop2txtcenter {
+      position: relative;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border: 3px solid  black;
+      border-radius: 25pt;
+      opacity: 0.5;
+    } 
+    
+  .maintop2txtcenter2 {
+      position: relative;
+      top: 70%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border: 3px solid black;
+      border-radius: 7pt;
+      
+  }
+  
+  
+    .footer-content{
+      position: relative;
+      left: 0;
+      bottom: 18%;
+      width: 100%;
+      background-color: yellowgreen;
+      text-align: center;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 800;
+      
+    }
+    /* Create three equal columns that floats next to each other */
+  .column {
+      float: left;
+      width: 33.33%;
+      /*padding: 10px;*/
+      height: 100px; /* Should be removed. Only for demonstration */
+      background-color: bisque;
+      color: darkolivegreen;
+      
+    }
+    .column a {
+      color: darkolivegreen;
+      text-decoration: none; /* This will remove the links in footer-content columns from becoming blue underline links */
+    }
+    
+    /* Clear floats after the columns */
+    .footer-content:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    .footer {
+      position: relative;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      font-family: 'Jacques Francois', serif;
+      background-color: blanchedalmond;
+      color: goldenrod;
+      text-align: center;
+      padding: 5px 0 5px 0;
+    }
+      /*h1{
+          font-family: 'Parisienne', cursive;
+      }
+      h2{
+          font-family: 'Raleway', sans-serif;
+      }*/
+  
+      
