@@ -1,0 +1,16 @@
+.center {
+    text-align: center;
+}
+
+body {
+    background: #ffffff;
+}
+
+.header {
+    width:1024;
+    height:100;
+    border:solid;
+    border-width:2;
+    background:#ccc;
+    text-align: center;
+}
