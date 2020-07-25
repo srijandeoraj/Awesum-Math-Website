@@ -2,15 +2,22 @@
     text-align: center;
 }
 
-body {
-    background: #ffffff;
+.header {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    padding: 30px 100px;
 }
 
-.header {
-    width:1024;
-    height:100;
-    border:solid;
-    border-width:2;
-    background:#ccc;
+.obnoxious {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 36pt;
+    background-color: blueviolet;
     text-align: center;
+    padding-top: 100px;
+    color: #FFFFFF; 
+}
+
+.test {
+    font: "Roboto";
+    padding-left: 100px;
+    padding-top: 30px;
 }
